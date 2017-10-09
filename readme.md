@@ -1,1 +1,3 @@
-this is a list of pys to scrape shuoshuo from qzone.
+首先selenium模拟登陆qq空间，在等待过程中扫码或点击头像登陆进入qq空间，接着获取cookie和gtk等信息保存至qzoneCookie.txt
+接着requests利用cookie和gtk获取qq好友列表保存到friendlist.json
+最后主程序遍历好友列表爬取所有说说保存到shuoshuo.json
