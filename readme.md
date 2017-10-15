@@ -1,0 +1,1 @@
+this is a list of pys to scrape shuoshuo from qzone.
